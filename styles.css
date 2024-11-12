@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #007ACC;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 48px;
+    color: #FFD700;
+}
+
+.initial.d {
+    color: yellow;
+}
+.initial.i {
+    color: blue;
+}
+.initial.p {
+    color: green;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Product Section */
+.product-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.product-section h2 {
+    font-size: 36px;
+    color: #007ACC;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-family: "Comic Sans MS", cursive;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.buy-btn {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.buy-btn:hover {
+    background-color: #005f99;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
